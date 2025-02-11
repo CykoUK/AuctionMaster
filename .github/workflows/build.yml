@@ -1,6 +1,6 @@
 name: Build Plugin
 
-on: [push]
+on: never
 
 jobs:
   build:
