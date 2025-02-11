@@ -107,7 +107,7 @@ public class Armor implements Category{
         meta.setLore(lore);
         displayCategoryItemSelected=displayCategoryItem.clone();
         displayCategoryItemSelected.setItemMeta(meta);
-        displayCategoryItemSelected.addUnsafeEnchantment(Enchantment.DURABILITY, 1);
+        displayCategoryItemSelected.addUnsafeEnchantment(Enchantment.UNBREAKING, 1);
 
         slot= AuctionMaster.menusCfg.getInt("browsing-menu.armor-slot");
         slot--;
