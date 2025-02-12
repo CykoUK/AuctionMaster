@@ -396,7 +396,7 @@ public class AuctionClassic implements Auction{
                 }
             }
             ItemMeta meta = toReturn.getItemMeta();
-            meta.addItemFlags(ItemFlag.HIDE_POTION_EFFECTS);
+            meta.addItemFlags(ItemFlag.HIDE_ADDITIONAL_TOOLTIP);
             meta.setLore(lore);
             toReturn.setItemMeta(meta);
         }
