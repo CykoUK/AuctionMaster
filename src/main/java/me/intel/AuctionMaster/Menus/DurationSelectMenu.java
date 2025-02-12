@@ -81,7 +81,7 @@ public class DurationSelectMenu {
                 ItemStack toSet = AuctionMaster.configLoad.secondTimeItem.clone();
                 if (hoursToCompare == startingDuration) {
                     custom = false;
-                    toSet.addUnsafeEnchantment(Enchantment.DURABILITY, 1);
+                    toSet.addUnsafeEnchantment(Enchantment.UNBREAKING, 1);
                 }
                 inventory.setItem(AuctionMaster.menusCfg.getInt("duration-select-menu.second-item.slot"), toSet);
             }
